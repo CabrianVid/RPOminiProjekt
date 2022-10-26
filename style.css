@@ -365,3 +365,6 @@ footer p {
     *{
         scroll-behavior: smooth;
     }
+footer a#to-top:hover {
+    background-color: var(--secondary-bg);
+}
