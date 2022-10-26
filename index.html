@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <title>Apartment Maribor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+    <script>
+        function myFunction(smallImg){
+            var fullImg=document.getElementById("imageBox");
+            fullImg.src=smallImg.src;
+        }
+    </script>
+    
+
+</head>
+<body>
+<span id="top"></span>
+<nav>
+    <input type="checkbox" name="menuToggle" id="menuToggle"/>
+    <label for="menuToggle" id="menuButton"><a><i class="fa fa-bars"></i></a></label>
+    <a href="#top"><i class="fa fa-home"></i>Home</a>
+    <a href="#about"><i class="fa fa-user"></i>About Apartment</a>
+    <a href="#products"><i class="fa fa-th"></i>Location</a>
+    <a href="#contact"><i class="fa fa-envelope"></i>Contact</a>
+</nav>
+
+<div id="home">
+    <div class="title-box">
+        <span class="title">Pleasant apartment near the center of Maribor</span><br/>
+     <!--<span class="subtitle">Podnaslov</span> -->
+    </div>
+</div>
+
+<div id="about" class="content">
+    <h2>About Apartment</h2>
+    <p>
+        Pleasant apartment near the center of Maribor features a balcony and is located in Maribor, within just a 20-minute walk of Shopping centre Europark Maribor and 1.8 km of Hippodrome Kamnica.
+
+        This air-conditioned apartment comes with 2 bedrooms, a flat-screen TV, and a kitchen.
+        
+        Maribor Thermal Spa is 3.4 km from the apartment.
+
+        
+    </p>
+  
+    <div class="gallery">
+             <div class="img-container">
+            <img id="imageBox" src="images/apartmentPhoto1.jpg">
+        </div>
+
+
+      <div class="gallery-image">
+
+                <div class="apa-img"><img src="images/apartmentPhoto1.jpg" onclick="myFunction(this)"></div>
+               <div class="apa-img"><img src="images/apartmentPhoto2.jpg" onclick="myFunction(this)"></div> 
+               <div class="apa-img"><img src="images/apartmentPhoto3.jpg" onclick="myFunction(this)"></div> 
+                <div class="apa-img"><img src="images/apartmentPhoto4.jpg" onclick="myFunction(this)"></div> 
+                <div class="apa-img"><img src="images/apartmentPhoto5.jpg" onclick="myFunction(this)"></div> 
+                <div class="apa-img"><img src="images/apartmentPhoto6.jpg" onclick="myFunction(this)"></div> 
+                <div class="apa-img"><img src="images/apartmentPhoto7.jpg" onclick="myFunction(this)"></div> 
+                <div class="apa-img"><img src="images/apartmentPhoto8.jpg" onclick="myFunction(this)"></div> 
+        </div>
+
+  
+</div>
+
+
+<div id="slika1"></div>
+
+<div id="products" class="content">
+    <h2>Location</h2>
+    <div class="location-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d171.4726378878362!2d15.629748808465553!3d46.55634652007744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476f77b97a163023%3A0x5af66ed59fc84806!2sValvasorjeva%20ulica%2092%2C%202000%20Maribor!5e0!3m2!1sen!2ssi!4v1658161635619!5m2!1sen!2ssi" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+</div>
+
+<div id="slika2"></div>
+
+<div id="contact" class="content">
+    <h2>Kontakt</h2>
+    <div class="contact-container">
+        <div class="contact-image">
+            <img src="images/UraniaZnak.jpg" alt="Zgradba FERI">
+        </div>
+
+        <div class="contact-data">
+            <i class="fa fa-map-marker"></i>Valvasorjeva 92, 2000 Maribor <br/>
+            <i class="fa fa-phone"></i> +386 51 660 032<br/>
+            <i class="fa fa-envelope"></i> mailll.com <br/>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+<footer>
+    <a href="#home" id="to-top"><i class="fa fa-arrow-up"></i>Na vrh</a>
+    <div class="social-links">
+        <i class="fa fa-facebook-official"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-snapchat"></i>
+        <i class="fa fa-pinterest-p"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</footer>
+</body>
+</html>
