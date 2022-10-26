@@ -358,3 +358,10 @@ footer p {
     blockquote p{
         padding-left: 20px !important;
     }
+
+    footer p {
+        margin: 10px;
+    }
+    *{
+        scroll-behavior: smooth;
+    }
